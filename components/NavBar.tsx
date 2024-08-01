@@ -17,7 +17,7 @@ import {
 
 const NavBar = () => {
   return (
-    <div className='bg-[#053104] dark:bg-slate-700 text-white py-2 px-5 flex justify-between'>
+    <div className='bg-[#053104] dark:bg-slate-700 text-white py-2 px-5 flex justify-between w-full'>
       <Link href="/" >
         {/* <Image src={logo} alt="Code wall logo" width={40} /> */}
         <p className='text-5xl'>Code wall</p>
