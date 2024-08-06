@@ -18,11 +18,11 @@ const Sidebar = () => {
   return (
     <Command className='bg-[#dffadf] rounded-none  '>
       <CommandInput placeholder="Type a command or search..." />
-      <CommandList>
+      <CommandList className=''>
         <CommandEmpty>No results found.</CommandEmpty>
         <CommandGroup heading="Suggestions">
-          <CommandItem>
-            <LayoutDashboard className='mr-2 h-4 w-4' />
+          <CommandItem className=''>
+            <LayoutDashboard className='mr-2 h-4 w-4 ' />
             <Link href='/'>Dashboard</Link>
           </CommandItem>
           <CommandItem>
