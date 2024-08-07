@@ -27,6 +27,12 @@ export default function Home() {
          count={200}
          icon={<MessageCircle className='' size={72} />} 
         />
+        {/* Remove tomorrow 8th of August */}
+        <DashboardCard 
+         title="post"
+         count={100}
+         icon={<Newspaper className='' size={72} />} 
+        />
       </div>
 
       <PostsTable title="Latest Posts" limit={5}/>
